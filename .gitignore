@@ -1,0 +1,38 @@
+# .gitignore
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+.venv*/
+pythonenv*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Логи
+*.log
+send.log
+
+# Временные файлы
+tmp/
+temp/
+
+# Файлы проекта
+*.egg-info/
+dist/
+build/
+
+# Операционные системы
+Thumbs.db
